@@ -1,0 +1,37 @@
+Jour 2 :
+
+• Objectif : 
+Faire le menu et le rendre fonctionnel, arranger visuellement la page 
+d’affichage d’une pile, faire la page de statistiques, finir la page
+d’apprentissage d’une pile.
+
+
+• Répartition des tâches : 
+Thibault : rendre la firstPage plus jolie, faire le timer de LearningView, 
+paramètres & algo de répétition.
+Caroline : passage de FirstPageView à StackView et StackView à CardView, 
+pop ups (export, gestion erreurs).
+Paul :  LearningView continue, paramètres & algo de répétition
+Guillaume : Gérer le Json (import/export), affichage des statistiques
+Fix tous les bugs rencontrés au fur et à mesure
+
+
+• Reste à faire : 
+Uniformiser les menus (pattern Command ?).
+Choisir le lieu de enregistrement lors de l’export (FileChooser).
+Contrôler le nom des fichiers exportés.
+Faire un jeu de données plus réaliste. 
+Correction de bug sur les stats.
+Diagramme de classes à mettre à jour.
+Document gestion de projet à mettre à jour.
+Vérifier la bonne concordance/le bon comportement entre les résultats 
+obtenus lors des révisions et les stats (Bon comportement de nbCorrect 
+pour StackCards et Card).
+
+
+• Résultats : 
+L’application est quasiment totalement fonctionnelle. Les menus 
+fonctionnent et on peut créer des piles, ajouter des cartes et 
+apprendre une pile. La page de statistiques est faite (malgré 
+encore un bug à corriger). Des bugs sur l’enregistrement de certaines 
+modifications restent à corriger. 

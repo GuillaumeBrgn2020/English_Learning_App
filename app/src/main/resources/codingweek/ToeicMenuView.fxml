@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="grammarQ" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar VBox.vgrow="NEVER">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#exit" text="Close">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="Informations" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <HBox fx:id="toolBar" minHeight="-Infinity" prefHeight="70.0" prefWidth="640.0">
+         <children>
+            <Button fx:id="vocabularyButton" onAction="#vocabularyPage" text="VOCABULARY" textAlignment="CENTER" />
+            <Button fx:id="grammarButton" onAction="#grammarPage" text="GRAMMAR" textAlignment="CENTER" />
+            <Button fx:id="toeicButton" onAction="#toeicPage" text="TOEIC" textAlignment="CENTER" />
+         </children>
+      </HBox>
+      <BorderPane fx:id="grammarQ" prefHeight="550.0" prefWidth="1000.0">
+         <top>
+            <VBox fx:id="grammarQ" alignment="CENTER" prefHeight="100.0" prefWidth="960.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="title" alignment="CENTER" prefHeight="64.0" text="TOEIC MODE" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+         </top>
+         <center>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="logo1" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label text="X" />
+                  <ImageView fx:id="logo2" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </HBox>
+         </center>
+         <bottom>
+            <ScrollPane fx:id="scrollbox" fitToHeight="true" fitToWidth="true" prefHeight="75.0" prefWidth="800.0" vbarPolicy="NEVER" vmin="400.0" BorderPane.alignment="CENTER">
+               <content>
+                  <HBox fx:id="stack" alignment="CENTER" layoutX="102.0" layoutY="154.0" prefHeight="70.0" prefWidth="797.0">
+                     <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#imagesButton" prefHeight="69.0" prefWidth="302.0" text="IMAGES" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#qaButton" prefHeight="69.0" prefWidth="302.0" text="Q / A" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#grammar2Button" prefHeight="69.0" prefWidth="302.0" text="GRAMMAR" />
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </HBox>
+               </content>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="70.0" />
+               </BorderPane.margin>
+            </ScrollPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</VBox>

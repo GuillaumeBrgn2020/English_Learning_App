@@ -1,0 +1,58 @@
+[
+    {
+        "sentence" : "___ is my favorite book.",
+        "answer" : "This",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ are the best chocolates I've ever tasted.",
+        "answer" : "These",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ is a very expensive car.",
+        "answer" : "That",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ are the flowers that I planted last week.",
+        "answer" : "These",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ are my favorite shoes.",
+        "answer" : "These",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ are the mountains in the distance.",
+        "answer" : "Those",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    },
+    {
+        "sentence" : "___ is my pen.",
+        "answer" : "This",
+        "prop1" : "This",
+        "prop2" : "That",
+        "prop3" : "These",
+        "prop4" : "Those"
+    }
+]

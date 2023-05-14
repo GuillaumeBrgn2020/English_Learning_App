@@ -1,0 +1,56 @@
+[
+    {
+        "pathToImage" : "saves/imagesQ1.png",
+        "pathToSong" : "saves/sonQ1.mp3",
+        "goodAnswer" : "B",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }, 
+    {
+        "pathToImage" : "saves/imagesQ2.png",
+        "pathToSong" : "saves/sonQ2.mp3",
+        "goodAnswer" : "A",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }, 
+    {
+        "pathToImage" : "saves/imagesQ3.png",
+        "pathToSong" : "saves/sonQ3.mp3",
+        "goodAnswer" : "C",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }, 
+    {
+        "pathToImage" : "saves/imagesQ4.png",
+        "pathToSong" : "saves/sonQ4.mp3",
+        "goodAnswer" : "B",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }, 
+    {
+        "pathToImage" : "saves/imagesQ5.png",
+        "pathToSong" : "saves/sonQ5.mp3",
+        "goodAnswer" : "A",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }, 
+    {
+        "pathToImage" : "saves/imagesQ6.png",
+        "pathToSong" : "saves/sonQ6.mp3",
+        "goodAnswer" : "B",
+        "prop1" : "A",
+        "prop2" : "B",
+        "prop3" : "C",
+        "prop4" : "D"
+    }
+]

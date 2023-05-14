@@ -1,0 +1,122 @@
+[
+    {
+        "sentence" : "During the peak season, it is _____ to hire additional workers for the weekend shifts.",
+        "answer" : "necessary",
+        "prop1" : "necessitate",
+        "prop2" : "necessarily",
+        "prop3" : "necessary",
+        "prop4" : "necessity"
+    },
+    {
+        "sentence" : "The upscale boutique Jane s Closet is known for selling the most stylish _____ for young professionals.",
+        "answer" : "accessories",
+        "prop1" : "accessorized",
+        "prop2" : "accessorize",
+        "prop3" : "accessorizes",
+        "prop4" : "accessories"
+    },
+    {
+        "sentence" : "As long as there are no further delays, the factory will be fully _____ by June 18.",
+        "answer" : "operational",
+        "prop1" : "operational",
+        "prop2" : "operate",
+        "prop3" : "operates",
+        "prop4" : "operation"
+    },
+    {
+        "sentence" : "The landlord raised the monthly rent for the first time in several years, and _____ so.",
+        "answer" : "reasonably",
+        "prop1" : "reasonable",
+        "prop2" : "reasonably",
+        "prop3" : "reason",
+        "prop4" : "reasons"
+    },
+    {
+        "sentence" : "We will make a final decision about changing the landscaping of the property after reviewing the _____ costs.",
+        "answer" : "estimated",
+        "prop1" : "estimation",
+        "prop2" : "estimate",
+        "prop3" : "estimated",
+        "prop4" : "estimating"
+    },
+    {
+        "sentence" : "Aurora Furnishings is finding it difficult to make a profit in its _____competitive market.",
+        "answer" : "increasingly",
+        "prop1" : "increases",
+        "prop2" : "increased",
+        "prop3" : "increasingly",
+        "prop4" : "increase"
+    },
+    {
+        "sentence" : "Despite having some problems with the sound system during the performance, the concert was an _____ experience for everyone.",
+        "answer" : "enjoyable",
+        "prop1" : "enjoyable",
+        "prop2" : "enjoyment",
+        "prop3" : "enjoys",
+        "prop4" : "enjoyably"
+    },
+    {
+        "sentence" : "The customer s order _____ will be sent by e-mail within twenty-four hours.",
+        "answer" : "confirmation",
+        "prop1" : "confirmation",
+        "prop2" : "confirms",
+        "prop3" : "confirmed",
+        "prop4" : "confirm"
+    },
+    {
+        "sentence" : "Thanks to his experience, Mr. Warren is _____ capable of completing the job on his own.",
+        "answer" : "certainly",
+        "prop1" : "certainly",
+        "prop2" : "certain",
+        "prop3" : "certainty",
+        "prop4" : "certify"
+    },
+    {
+        "sentence" : "The April edition of Fishing and More magazine looks _____different from previous issues because of the new art editor.",
+        "answer" : "completely",
+        "prop1" : "completed",
+        "prop2" : "complete",
+        "prop3" : "completely",
+        "prop4" : "completing"
+    },
+    {
+        "sentence" : "Due to the high volume of foot traffic, the shop must polish its floors more _____ than usual during the peak season.",
+        "answer" : "frequently",
+        "prop1" : "frequent",
+        "prop2" : "frequented",
+        "prop3" : "frequency",
+        "prop4" : "frequently"
+    },
+    {
+        "sentence" : "Mr. Albrecht’s _____ in replying to the FIR director’s e-mail demonstrated that he was highly interested in the position.",
+        "answer" : "promptness",
+        "prop1" : "promptness",
+        "prop2" : "prompted",
+        "prop3" : "prompt",
+        "prop4" : "promptly"
+    },
+    {
+        "sentence" : "The Parks and Recreation Department offers _____ opportunities for volunteers to improve the community.",
+        "answer" : "rewarding",
+        "prop1" : "reward",
+        "prop2" : "rewards",
+        "prop3" : "rewarded",
+        "prop4" : "rewarding"
+    },
+    {
+        "sentence" : "The restaurant has a _____ decorated room that is perfect for hosting children’s parties.",
+        "answer" : "cheerfully",
+        "prop1" : "cheerful",
+        "prop2" : "cheerfully",
+        "prop3" : "cheerfulness",
+        "prop4" : "cheer"
+    },
+    {
+        "sentence" : "The notice indicated that a first-aid training course will be provided free of charge to _____ next month.",
+        "answer" : "residents",
+        "prop1" : "residents",
+        "prop2" : "residence",
+        "prop3" : "residential",
+        "prop4" : "resides"
+    }
+]

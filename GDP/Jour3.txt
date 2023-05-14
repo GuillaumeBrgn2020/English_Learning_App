@@ -1,0 +1,26 @@
+Jour 3 :
+
+• Objectif : 
+Debug toute l'application et obtenir une application totalement fonctionnelle
+le soir. Mettre des icones plus jolies aux fenêtres et aux icônes. Terminer
+le algorithmes de propositions de cartes (pattern strategy associé). Faire un mode multijoueur.
+
+
+• Répartition des tâches : 
+Thibault et Paul font l'algorithme de proposition de cartes & pattern strategy.
+Guillaume et Caroline font le debug et les tests associés. 
+Caroline doit encore finir pattern Observer.
+Guillaume fait le multijoueur. 
+
+
+• Reste à faire : 
+Pattern Observer à finir. 
+Pattern strategy à finir.
+Mise à jour du diagramme de classes. 
+Améliorer le design de l'application.
+
+
+• Résultats : 
+L'application est totalement fonctionnelle. Les imports et exports fonctionnent, 
+on peut jouer en compétition à 3 joueurs (mode multijoueur). Le programme de proposition de cartes
+fonctionne bien aussi.  

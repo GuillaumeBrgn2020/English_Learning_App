@@ -1,0 +1,194 @@
+[
+    {
+        "sentence" : "The store’s manager plans to put the new merchandise on display _____ to promote the line of fall fashions.",
+        "answer" : "soon",
+        "prop1" : "soon",
+        "prop2" : "very",
+        "prop3" : "that",
+        "prop4" : "still"
+    },
+    {
+        "sentence" : "The guidelines for the monthly publication are _____revised to adapt to the changing readers.",
+        "answer" : "periodically",
+        "prop1" : "courteously",
+        "prop2" : "initially",
+        "prop3" : "periodically",
+        "prop4" : "physically"
+    },
+    {
+        "sentence" : "We would like to discuss this problem honestly and _____ at the next staff meeting.",
+        "answer" : "openly",
+        "prop1" : "rarely",
+        "prop2" : "tiredly",
+        "prop3" : "openly",
+        "prop4" : "highly"
+    },
+    {
+        "sentence" : "The riskiest _____ of the development of new medications are the trials with human subjects.",
+        "answer" : "stages",
+        "prop1" : "proceeds",
+        "prop2" : "perspectives",
+        "prop3" : "installments",
+        "prop4" : "stages"
+    },
+    {
+        "sentence" : "_____ an ankle injury, the baseball player participated in the last game of the season.",
+        "answer" : "In spite of",
+        "prop1" : "In spite of",
+        "prop2" : "Even if",
+        "prop3" : "Whether",
+        "prop4" : "Given that"
+    },
+    {
+        "sentence" : "_____ that the insulation has been replaced, the building is much more energy-efficient.",
+        "answer" : "Now",
+        "prop1" : "Now",
+        "prop2" : "For",
+        "prop3" : "As",
+        "prop4" : "Though"
+    },
+    {
+        "sentence" : "_____ seeking a position at Tulare Designs must submit a portfolio of previous work.",
+        "answer" : "Anyone",
+        "prop1" : "Anyone",
+        "prop2" : "Whenever",
+        "prop3" : "Other",
+        "prop4" : "Fewer"
+    },
+    {
+        "sentence" : "Mr. Ross, _____is repainting the interior of the lobby, was recommended by a friend of the building manager.",
+        "answer" : "who",
+        "prop1" : "himself",
+        "prop2" : "he",
+        "prop3" : "who",
+        "prop4" : "which"
+    },
+    {
+        "sentence" : "Mr. Sims needs a more _____ vehicle for commuting from his suburban home to his office downtown.",
+        "answer" : "reliable",
+        "prop1" : "expressive",
+        "prop2" : "reliable",
+        "prop3" : "partial",
+        "prop4" : "extreme"
+    },
+    {
+        "sentence" : "_____ the building has an excellent location and a modern interior, it is popular among visitors.",
+        "answer" : "Provided that",
+        "prop1" : "In view of",
+        "prop2" : "Provided that",
+        "prop3" : "Other than",
+        "prop4" : "Seeing that"
+    },
+    {
+        "sentence" : "A private reception for gallery donors will be _____ on March 5, prior to the grand opening of the exhibit.",
+        "answer" : "held",
+        "prop1" : "held",
+        "prop2" : "faced",
+        "prop3" : "claimed",
+        "prop4" : "made"
+    },
+    {
+        "sentence" : "The green light on the side of the water purifier lights up _____ the filter needs to be replaced.",
+        "answer" : "whenever",
+        "prop1" : "likewise",
+        "prop2" : "whenever",
+        "prop3" : "therefore",
+        "prop4" : "whereas"
+    },
+    {
+        "sentence" : "Two items in Ms. Burke’s order were out of stock, so her invoice was adjusted _____.",
+        "answer" : "accordingly",
+        "prop1" : "continuously",
+        "prop2" : "accordingly",
+        "prop3" : "immeasurably",
+        "prop4" : "recognizably"
+    },
+    {
+        "sentence" : "The soccer players usually practice on the main field at Waterbury Park, but they sometimes practice _____.",
+        "answer" : "elsewhere",
+        "prop1" : "everybody",
+        "prop2" : "twice",
+        "prop3" : "yet",
+        "prop4" : "elsewhere"
+    },
+    {
+        "sentence" : "MyHealth Co. has produced a wide range of vitamin supplements for _____ two decades.",
+        "answer" : "over",
+        "prop1" : "along",
+        "prop2" : "during",
+        "prop3" : "over",
+        "prop4" : "when"
+    },
+    {
+        "sentence" : "The vacant rooms on the inn’s second floor have _____ been cleaned.",
+        "answer" : "all",
+        "prop1" : "most",
+        "prop2" : "every",
+        "prop3" : "some",
+        "prop4" : "all"
+    },
+    {
+        "sentence" : "A minor electrical malfunction was discovered by the pilot _____ before the plane took off.",
+        "answer" : "shortly",
+        "prop1" : "barely",
+        "prop2" : "shortly",
+        "prop3" : "absolutely",
+        "prop4" : "exclusively"
+    },
+    {
+        "sentence" : "Following Ms. Rivera’s _____ statement, the official awards ceremony for Plex Industries will commence.",
+        "answer" : "brief",
+        "prop1" : "brief",
+        "prop2" : "straight",
+        "prop3" : "former",
+        "prop4" : "steep"
+    },
+    {
+        "sentence" : "The Master Gardeners Club had to _____ its monthly meeting because the community center’s conference room was double-booked.",
+        "answer" : "postpone",
+        "prop1" : "prepare",
+        "prop2" : "oppose",
+        "prop3" : "postpone",
+        "prop4" : "extend"
+    },
+    {
+        "sentence" : "Financial advisors report that older investors tend to be_____ than their younger counterparts.",
+        "answer" : "more cautious",
+        "prop1" : "cautious",
+        "prop2" : "cautioned",
+        "prop3" : "former",
+        "prop4" : "caution"
+    },
+    {
+        "sentence" : "The accountants were unable to produce a full report by the deadline but promised that _____ would give a summary of the important points.",
+        "answer" : "they",
+        "prop1" : "their",
+        "prop2" : "themselves",
+        "prop3" : "they",
+        "prop4" : "theirs"
+    },
+    {
+        "sentence" : "The short story cannot be reprinted _____ explicit permission from the writer.",
+        "answer" : "without",
+        "prop1" : "without",
+        "prop2" : "regarding",
+        "prop3" : "among",
+        "prop4" : "unlike"
+    },
+    {
+        "sentence" : "A wildlife expert is scheduled to give a talk on the _____ that the factory has had on the surrounding forest.",
+        "answer" : "impact",
+        "prop1" : "components",
+        "prop2" : "degree",
+        "prop3" : "requirements",
+        "prop4" : "impact"
+    },
+    {
+        "sentence" : "Because of _____fuel costs, some people are choosing to stay home for the summer vacation rather than drive to tourist sites.",
+        "answer" : "rising",
+        "prop1" : "rising",
+        "prop2" : "above",
+        "prop3" : "dependable",
+        "prop4" : "lengthy"
+    }
+]

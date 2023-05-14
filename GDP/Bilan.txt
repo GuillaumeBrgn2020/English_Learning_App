@@ -1,0 +1,42 @@
+Bilans personnels : 
+
+	Guillaume : Ce projet a été un véritable challenge. C'est la première fois
+que je développais une application aussi complète et en temps très limité. 
+C'est également le premier projet de groupe aussi ambitieux tant il était court. 
+J'ai considérablement amélioré ma connaissance et ma maîtrise de Java et du 
+package JavaFX. Je pense dorénavant être capable de faire des application assez 
+complète en usilisant JavaFX (ou d'autres technologies du même genre). 
+	Le travail de groupe s'est bien passé. Tout le monde a pu travailler et 
+se rendre utile auprès des autres membres du groupe. Nous avons travaillé tous les 
+jours de 8h à 18h à 100% sur ce projet. 
+	J'ai tout de même rencontré quelques problèmes. Je n'ai pas réussi à finir 
+le mode dans lequel on peut écrire des réponses. J'ai aussi eu du mal avec les 
+design pattern ce qui a parfois rendu l'utilisation de certaines parties du code 
+difficile à appréhender. 
+	Ce projet a finalement été très formateur et fut une excellente expérience. 
+Je suis satisfait du travail que nous avons rendu ainsi de ce que m'a apporté le 
+projet en terme de connaissance sur Java. 
+
+	Paul : La réalisation d'une application entière et fonctionnelle en 4 jours constituait
+une véritable défi tant sur le plan technique que personnel. En effet, ce projet a demandé
+une certaine efficacité et clarté dans la rédaction du code. Par ailleurs, veiller à la bonne
+coordination entre les différents membres du groupe constituait un challenge
+afin d'assurer le bonne fonctionnement du code. Ce projet m'a ainsi permis de m'améliorer 
+dans la maîtrise de Java & JavaFX, mais aussi de m'améliorer d'un point de vue
+communication et travail d'équipe.
+
+	Thibault : La réalisation du projet s'est dans l'ensemble très bien déroulée. L'équipe s'est
+entendue très rapidement sur la manière de procéder pendant le projet. Lors du premier jour, 
+nous avons réussi à bien nous répartir les tâches même si au fur et à mesure de l'avancée, certains 
+membres du groupe devaient attendre que les autres finissent leurs fonctionnalités pour pouvoir continuer.
+Ces 4 jours avec les autres membres furent formateurs et instructifs, tant sur le plan du travail d'équipe,
+que sur la maîtrise du langage Java et JavaFx.
+
+	Caroline : Cette semaine s'est bien déroulée : ce projet m'a permis de travailler en équipe sur une 
+réalisation à plein temps. 
+	Il m'a permis de consolider mes compétences en java, et de manipuler davantage SceneBuilder. J'ai 
+également appris à maîtriser davantage l'utilisation de git (gestion de branches, merge), malgré quelques
+appréhensions au début. L'implémentation de cette application a été plaisante et m'a permis de comprendre 
+davantage le fonctionnement de l'outil gradle, des dépendances de librairies et de JavaFX.
+	Ce projet m'a de plus appris à travailler en équipe sur une durée courte, ce qui a nécessité une
+bonne communication au sein du groupe pour une efficacité optimale.

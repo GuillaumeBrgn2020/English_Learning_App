@@ -1,0 +1,310 @@
+@startuml Diagramme de classes FlashCards complet
+
+
+class Card{
+    - question : String
+    - answer : String
+    - q0rA : int
+    - nbCorrect : int
+    - nbCorrectConsecutive : int
+    - nbAppear : int
+    + getQuestion() : String
+    + getAnswer() : String
+    + getNbCorrect() : int
+    + getNbCorrectConsecutive() : int
+    + getNbAppear() : int
+    + getQ0rA() : int
+    + setQuestion(String question) : void
+    + setAnswer(String answer) : void
+    + setQorA(int value) : void
+    + setNbCorrect(int value) : void
+    + setNbCorrectConsecutive(int value) : void
+    + setNbAppear(int value) : void
+    + changecard(String question, String answer) : void
+    + isCompleted() : boolean
+    + incrementCorrect() : void
+    + incrementAppear() : void
+    + incrementCorrectConsec() : void
+    + resetCorrectConsec() : void
+    + switchQ0rA() : void
+    + toString() : String
+}
+
+class StackCards {
+    - name : String
+    - description : String
+    - currentCard : int
+    - orderMethod : String
+    - frequency : ArrayList<Integer>
+    - maxVictory : int
+    - answerFirst : boolean
+    - nbCorrect : int
+    + getName() : String
+    + getDescription() : String
+    + getCards() : ArrayList<Card>
+    + getNbCorrect() : int
+    + getNbCards() : int
+    + getCurrentCard() : int
+    + getNbCardsCompleted() : int
+    + getNbCardCorrect() : int
+    + getOrderMethod() : String
+    + getFrequency() : ArrayList<Integer>
+    + getMaxVictory() : int
+    + getAnswerFirst() : boolean
+    + setName(String name) : void
+    + setDescription(String description) : void
+    + setNbCorrect(int i) : void
+    + setCurrentCard(int value) : void
+    + setOrderMethodR() : void
+    + setOrderMethodA() : void
+    + setOrderMethodC() : void
+    + setMaxVictory() : void
+    + setFrequency() : void
+    + setAnswerFirst() : void
+    + changeStackCards(String name, String description) : void
+    + addCard(Card card) : void
+    + removeCard(Card card) : void
+    + isCompleted() : boolean
+    + increaseCorrectStackCards() : void
+    + resetQorA() : void
+    + increaseCorrect(ArrayList<Card> cards) : void
+    + increaseFalse(ArrayList<Card> cards) : void
+    + getNbAppear() : int
+    + toString() : String
+    + getPercentage() : int
+    + resetStatistics() : void
+    + resetCorrectConsec() : void
+    + resetFrequency() : void
+    + learningAlgorithm(ArrayList<Card> cards, int currentCard) : void
+    + find(String question) : Card
+    + sort() : void
+}
+
+class FlashCard {
+    + getStacksCards() : ArrayList<StackCards>
+    + getNbStackCards() : int
+    + getNbCards() : int
+    + getNbCorrectCards() : int
+    + getNbCardsAppear() : int
+    + getNbCorrectStack() : int
+    + getPercentage() : int
+    + setStacksCards(ArrayList<StackCards> stacksCards) ; void
+    + addStackCards(StackCards stackCards) : void
+    + removeStackCards(StackCards stackCards) : void
+    + save(File file, ArrayList<StackCards> stacksCards) : void
+    + toString() : String
+    + find(String name) : StackCards
+    + sort() : void
+}
+
+interface Observer{
+    + update() : void
+}
+
+interface Initializable{
+    + initialize(URL location, ResourceBundle resources) : void
+}
+
+
+class CardViewController{
+    - questionTextArea : TextArea
+    - answerTextArea : TextArea
+    - name : Label
+    - deleteButton : Button
+    - saveButton : Button
+    + newCard() : void
+    + removeCard() : void
+    + save() : void
+    + home() : void
+    + exit() : void
+    + stats() : void
+    + help() : void
+}
+
+class FirstPageController{
+    - image : Image
+    - logo : ImageView
+    - stack : HBox
+    - newButton : Button
+    + getImage() : Image
+    + importStackCards() : void
+    + exportStackCards() : void
+    + newStack() : void
+    + exit() : void
+    + help() : void
+    + stats() : void
+    + newStack() : void
+}
+
+
+class LearningViewController{
+    - questionAnswer : Button
+    - falseAnswer : Button
+    - correctAnswer : Button
+    - stackName : Label
+    - time : Canvas
+    - remainingQuestions : Label
+    - remainingTime : Label
+    - compteur : long
+    - image : Image
+    - orderMethod : String
+    - frequency : ArrayList<Integer>
+    gc : GraphicsContext
+    largeur : double
+    hauteur : double
+    rayon : double
+    lAiguille : double
+    - tempsDeDepart : double
+    - tempsCourant : double
+    + traceCadran(double inclinaison) : void
+    + swapQA() : void
+    + increaseCorrect() : void
+    + increaseFalse() : void
+    + handleEndOfStack() : void
+    + home() : void
+    + exit() : void
+    + help() : void
+}
+
+
+class StackViewController{
+    - stackName : TextField
+    - stackDescription : TextArea
+    - cardsView : VBox
+    - listView : ListView<Label>
+    + importStackCards() : void
+    + exportStackCards() : void
+    + multiplayer() : void
+    + home() : void
+    + exit() : void
+    + newStack() : void
+    + saveStack() : void
+    + removeStack() : void
+    + refreshScore() : void
+    + setOrderMethodA() : void
+    + setOrderMethodR() : void
+    + setOrderMethodC() : void
+    + stats() : void
+    + setFrequency1() : void
+    + setFrequency2A() : void
+    + setFrequency2B() : void
+    + setFrequency3A() : void
+    + setFrequency3B() : void
+    + setFrequency3C() : void
+    + help() : void
+    + addCard() : void
+    + startLearning() : void
+}
+
+class StatisticsViewController{
+    - stackViewVBox : VBox
+    - percentageImageView : ImageView
+    - nbPilesConnuesLabel : Label
+    - nbCartesConnuesLabel : Label
+    - typeStatsLabel : Label
+    + home() : void
+    + exit() : void
+    + help() : void
+}
+
+class MultiplayerViewController {
+    - joueur1_button : Button
+    - joueur2_button : Button
+    - joueur3_button : Button
+    - joueur1_imageView : ImageView
+    - joueur2_imageView : ImageView
+    - joueur3_imageView : ImageView
+    - joueur1_scoreLabel : Label
+    - joueur2_scoreLabel : Label
+    - joueur3_scoreLabel : Label
+    - stackCardName : Label
+    - questionAnswer : Button
+    - noAnswer : Button
+    + nextCurrentCard() : void
+    + handleEndOfStack() : void
+    + swapQA() : void
+    + getWinner() : Player
+    + home() : void
+    + exit() : void
+    + help() : void
+
+}
+
+class Player {
+    - name : String
+    - score : int
+    - imagePath : String
+    + getName() : String
+    + getScore() : int
+    + getImagePath() : String
+    + addPoint() : void
+    + setName(String name) : void
+    + setImagePath(String imagePath) : void
+    + toString() : String
+}
+
+class SubjectObserver{
+    + addObserver(Observer o) : void
+    + rmvObserve(Observer o) : void
+    + notifyObserve() : void
+    + clear() : void
+}
+
+class Context {
+    + setStrategy(Strategy strategy) : void
+    + execStrategy(ArrayList<Card> cards, int currentCard, ArrayList<Integer> frequency)
+}
+
+interface Strategy {
+    + execute(ArrayList<Card> cards, int currentCard, ArrayList<Integer> frequency) : Card
+}
+
+class FreqStrategy1Box {
+
+}
+
+class FreqStrategy2Box {
+
+}
+
+class FreqStrategy3Box {
+
+}
+
+StackCards -- "*" Card
+FlashCards -- "*" StackCards
+
+Observer <|.. CardViewController
+Observer <|.. FirstPageController
+Observer <|.. LearningViewController
+Observer <|.. StackViewController
+Observer <|.. StatisticsViewController
+Initializable <|.. CardViewController
+Initializable <|.. FirstPageController
+Initializable <|.. LearningViewController
+Initializable <|.. StackViewController
+Initializable <|.. StatisticsViewController
+"Comparable<Card>" <|.. Card
+CardViewController -- "1" Card
+CardViewController -- "1" StackCards
+CardViewController -- "1" FlashCards
+FirstPageController -- "1" FlashCards
+LearningViewController -- "1" StackCards
+LearningViewController -- "1" FlashCards
+StackViewController -- "1" StackCards
+StackViewController -- "1" FlashCards
+MultiplayerViewController -- "1" FlashCard
+MultiplayerViewController -- "1" StackCards
+MultiplayerViewController -- "*" Card
+MultiplayerViewController -- "3" Player
+
+SubjectObserver <|-- StackCards
+SubjectObserver -- "*" Observer
+
+Strategy <|.. FreqStrategy1Box
+Strategy <|.. FreqStrategy2Box
+Strategy <|.. FreqStrategy3Box
+
+Context -- "1" Strategy
+
+@enduml

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#home" text="Go back welcom page" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#exit" text="Close">
+              <accelerator>
+                <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+              </accelerator>
+            </MenuItem>
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#help" text="Informations" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <HBox fx:id="toolBar" prefHeight="55.0" prefWidth="640.0">
+      <children>
+        <Button fx:id="vocabularyButton" text="VOCABULARY" textAlignment="CENTER" onAction="#vocabularyPage"/>
+        <Button fx:id="grammarButton" text="GRAMMAR" textAlignment="CENTER" onAction="#grammarPage"/>
+        <Button fx:id="toeicButton" text="TOEIC" textAlignment="CENTER" onAction="#toeicPage"/>
+      </children>
+    </HBox>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="41.0" prefHeight="35.0" prefWidth="500.0" text="Piles de cartes">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+        <Label fx:id="typeStatsLabel" layoutX="583.0" layoutY="141.0" prefHeight="27.0" prefWidth="287.0" text="Statistiques globales : ">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+        <HBox layoutX="344.0" layoutY="220.0" prefHeight="304.0" prefWidth="594.0">
+            <children>
+              <VBox prefHeight="304.0" prefWidth="259.0">
+                  <children>
+                    <ImageView fx:id="percentageImageView" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  </children>
+              </VBox>
+              <VBox prefHeight="146.0" prefWidth="287.0">
+                  <children>
+                    <Label fx:id="nbPilesConnuesLabel" prefHeight="75.0" prefWidth="271.0" text="Nombre de piles connues : 1/5">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                    <Label fx:id="nbCartesConnuesLabel" prefHeight="75.0" prefWidth="271.0" text="Nombre de cartes conues : 36/169">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                  </children>
+              </VBox>
+            </children>
+        </HBox>
+        <VBox fx:id="stackViewVBox" alignment="CENTER" layoutX="122.0" layoutY="109.0" prefHeight="414.0" prefWidth="200.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

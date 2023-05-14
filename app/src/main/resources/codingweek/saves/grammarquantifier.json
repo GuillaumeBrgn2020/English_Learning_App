@@ -1,0 +1,74 @@
+[    
+    {"sentence" : "Do you have ___ milk?",
+        "answer" : "any",
+        "prop1" : "any",
+        "prop2" : "much",
+        "prop3" : "many",
+        "prop4" : "no"    
+    },    
+    {
+        "sentence" : "There are ___ books on the shelf.",
+        "answer" : "some",
+        "prop1" : "any",
+        "prop2" : "much",
+        "prop3" : "many",
+        "prop4" : "some"    
+    },    
+    {
+        "sentence" : "I don't have ___ time to finish this project.",
+        "answer" : "enough",
+        "prop1" : "some",
+        "prop2" : "enough",
+        "prop3" : "many",
+        "prop4" : "any"    
+    },    
+    {
+        "sentence" : "___ people like chocolate ice cream.",
+        "answer" : "many",
+        "prop1" : "some",
+        "prop2" : "many",
+        "prop3" : "any",
+        "prop4" : "few"    
+    },    
+    {
+        "sentence" : "There isn't ___ water in the bottle.",
+        "answer" : "much",
+        "prop1" : "some",
+        "prop2" : "many",
+        "prop3" : "much",
+        "prop4" : "enough"    
+    },    
+    {
+        "sentence" : "She has ___ friends in the city.",
+        "answer" : "many",
+        "prop1" : "some",
+        "prop2" : "much",
+        "prop3" : "any",
+        "prop4" : "many"    
+    },    
+    {
+        "sentence" : "We don't have ___ money to buy a new car.",
+        "answer" : "enough",
+        "prop1" : "some",
+        "prop2" : "much",
+        "prop3" : "many",
+        "prop4" : "enough"    
+    },    
+    {
+        "sentence" : "Can you give me ___ information about the event?",
+        "answer" : "some",
+        "prop1" : "any",
+        "prop2" : "some",
+        "prop3" : "many",
+        "prop4" : "none"    
+    },    
+    {
+        "sentence" : "He doesn't have ___ experience for the job.",
+        "answer" : "enough",
+        "prop1" : "some",
+        "prop2" : "much",
+        "prop3" : "enough",
+        "prop4" : "any"    
+    }
+]
+

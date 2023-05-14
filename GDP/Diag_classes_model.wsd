@@ -1,0 +1,105 @@
+@startuml Diagramme de classes model
+
+class Card{
+    - question : String
+    - answer : String
+    - q0rA : int
+    - nbCorrect : int
+    - nbCorrectConsecutive : int
+    - nbAppear : int
+    + getQuestion() : String
+    + getAnswer() : String
+    + getNbCorrect() : int
+    + getNbCorrectConsecutive() : int
+    + getNbAppear() : int
+    + getQ0rA() : int
+    + setQuestion(String question) : void
+    + setAnswer(String answer) : void
+    + setQorA(int value) : void
+    + setNbCorrect(int value) : void
+    + setNbCorrectConsecutive(int value) : void
+    + setNbAppear(int value) : void
+    + changecard(String question, String answer) : void
+    + isCompleted() : boolean
+    + incrementCorrect() : void
+    + incrementAppear() : void
+    + incrementCorrectConsec() : void
+    + resetCorrectConsec() : void
+    + switchQ0rA() : void
+    + toString() : String
+}
+
+class StackCards {
+    - name : String
+    - description : String
+    - currentCard : int
+    - orderMethod : String
+    - frequency : ArrayList<Integer>
+    - maxVictory : int
+    - answerFirst : boolean
+    - nbCorrect : int
+    + getName() : String
+    + getDescription() : String
+    + getCards() : ArrayList<Card>
+    + getNbCorrect() : int
+    + getNbCards() : int
+    + getCurrentCard() : int
+    + getNbCardsCompleted() : int
+    + getNbCardCorrect() : int
+    + getOrderMethod() : String
+    + getFrequency() : ArrayList<Integer>
+    + getMaxVictory() : int
+    + getAnswerFirst() : boolean
+    + setName(String name) : void
+    + setDescription(String description) : void
+    + setNbCorrect(int i) : void
+    + setCurrentCard(int value) : void
+    + setOrderMethodR() : void
+    + setOrderMethodA() : void
+    + setOrderMethodC() : void
+    + setMaxVictory() : void
+    + setFrequency() : void
+    + setAnswerFirst() : void
+    + changeStackCards(String name, String description) : void
+    + addCard(Card card) : void
+    + removeCard(Card card) : void
+    + isCompleted() : boolean
+    + increaseCorrectStackCards() : void
+    + resetQorA() : void
+    + increaseCorrect(ArrayList<Card> cards) : void
+    + increaseFalse(ArrayList<Card> cards) : void
+    + getNbAppear() : int
+    + toString() : String
+    + getPercentage() : int
+    + resetStatistics() : void
+    + resetCorrectConsec() : void
+    + resetFrequency() : void
+    + learningAlgorithm(ArrayList<Card> cards, int currentCard) : void
+    + find(String question) : Card
+    + sort() : void
+}
+
+class FlashCard {
+    + getStacksCards() : ArrayList<StackCards>
+    + getNbStackCards() : int
+    + getNbCards() : int
+    + getNbCorrectCards() : int
+    + getNbCardsAppear() : int
+    + getNbCorrectStack() : int
+    + getPercentage() : int
+    + setStacksCards(ArrayList<StackCards> stacksCards) ; void
+    + addStackCards(StackCards stackCards) : void
+    + removeStackCards(StackCards stackCards) : void
+    + save(File file, ArrayList<StackCards> stacksCards) : void
+    + toString() : String
+    + find(String name) : StackCards
+    + sort() : void
+}
+
+"Comparable<Card>" <|.. Card
+
+StackCards -- "*" Card
+FlashCards -- "*" StackCards
+
+
+@enduml

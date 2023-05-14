@@ -1,0 +1,21 @@
+Jour 1 : 
+
+• Objectif : 
+
+Réfléchir à la conception de l’application (agencement des pages, visuels 
+des différentes vues et diagramme de classe global).
+Répartir le travail entre les différents membres de l'équipe.
+L'objectif principal est d'obtenir une version exécutable permettant d’afficher 
+les différentes vues. Si cela est possible, nous souhaitons en bonus implémenter la fonctionnalité
+de création de piles et d'ajout de cartes. 
+
+
+• Résultat : 
+
+L'équipe a travaillé sur la conception de l'application pendant 2h30.
+Ensuite, chaque membre s'est vu attribué une vue particulière.
+Nous avons réalisés les vues fxml ainsi que les controllers associés avec 
+des méthodes vides pour au minimum pouvoir afficher les pages. 
+Nous avons pu alors réaliser par la suite une page d’accueil qui affiche 
+les piles de cartes existantes. Nous sommes également parvenu à implémenter les fonctionnalités
+de création de pile, et de parcours d'une pile existante pour y ajouter des cartes.

@@ -1,0 +1,169 @@
+[
+    {
+        "sentence" : "Yesterday, I ___ tennis.",
+        "answer" : "played",
+        "prop1" : "am playing",
+        "prop2" : "played",
+        "prop3" : "play",
+        "prop4" : "was playing"
+    },
+    {
+        "sentence" : "Tomorrow, I ___ tennis.",
+        "answer" : "will play",
+        "prop1" : "am playing",
+        "prop2" : "played",
+        "prop3" : "will play",
+        "prop4" : "was playing"
+    },
+    {
+        "sentence" : "Every day, I ___ up at 6am and ___ to the gym.",
+        "answer" : "get, go",
+        "prop1" : "get, go",
+        "prop2" : "got, went",
+        "prop3" : "will get, will go",
+        "prop4" : "are getting, are going"
+    },
+    {
+        "sentence" : "She ___ a cup of coffee every morning before she ___ to work.",
+        "answer" : "drinks, goes",
+        "prop1" : "drink, go",
+        "prop2" : "drank, went",
+        "prop3" : "drinks, goes",
+        "prop4" : "is drinking, is going"
+    },
+    {
+        "sentence" : "I usually ___ a book before I ___ to bed.",
+        "answer" : "read, go",
+        "prop1" : "reads, goes",
+        "prop2" : "read, went",
+        "prop3" : "will read, will go",
+        "prop4" : "read, go"
+    },
+    {
+        "sentence" : "We ___ the movie theater every Friday night.",
+        "answer" : "visit",
+        "prop1" : "are visiting",
+        "prop2" : "visit",
+        "prop3" : "will visit",
+        "prop4" : "have visited"
+    },
+    {
+        "sentence" : "He ___ his bike to work every day.",
+        "answer" : "rides",
+        "prop1" : "is riding",
+        "prop2" : "rode",
+        "prop3" : "will ride",
+        "prop4" : "rides"
+    },
+    {
+        "sentence" : "They ___ their lunch break at noon every day.",
+        "answer" : "take",
+        "prop1" : "are taking",
+        "prop2" : "take",
+        "prop3" : "will take",
+        "prop4" : "have taken"
+    },
+    {
+        "sentence" : "My sister ___ her homework every night after dinner.",
+        "answer" : "does",
+        "prop1" : "does",
+        "prop2" : "did",
+        "prop3" : "will do",
+        "prop4" : "has done"
+    },
+    {
+        "sentence" : "We ___ to the park every Sunday afternoon.",
+        "answer" : "go",
+        "prop1" : "are going",
+        "prop2" : "went",
+        "prop3" : "will go",
+        "prop4" : "go"
+    },
+    {   "sentence" : "Yesterday, I ___ tennis.",
+        "answer" : "played",        
+        "prop1" : "am playing",        
+        "prop2" : "played",        
+        "prop3" : "play",        
+        "prop4" : "was playing"    
+    },    
+    {        
+        "sentence" : "Last night, I ___ TV.",        
+        "answer" : "watched",        
+        "prop1" : "am watching",        
+        "prop2" : "watched",        
+        "prop3" : "watch",        
+        "prop4" : "was watching"    
+    },    
+    {        
+        "sentence" : "I ___ to the beach last weekend.",        
+        "answer" : "went",        
+        "prop1" : "am going",        
+        "prop2" : "went",        
+        "prop3" : "go",        
+        "prop4" : "was going"    
+    },    
+    {        
+        "sentence" : "He ___ his phone yesterday.",        
+        "answer" : "dropped",        
+        "prop1" : "is dropping",        
+        "prop2" : "dropped",        
+        "prop3" : "drop",        
+        "prop4" : "was dropping"    
+    },    
+    {        
+        "sentence" : "We ___ a lot of food at the party.",        
+        "answer" : "ate",        
+        "prop1" : "are eating",        
+        "prop2" : "ate",        
+        "prop3" : "eat",        
+        "prop4" : "were eating"    
+        },    
+    {        
+        "sentence" : "My sister ___ her homework yesterday.",        
+        "answer" : "did",        
+        "prop1" : "is doing",        
+        "prop2" : "did",        
+        "prop3" : "do",        
+        "prop4" : "was doing"    
+    },    
+    {        
+        "sentence" : "They ___ a great time on their vacation.",        
+        "answer" : "had",        
+        "prop1" : "are having",        
+        "prop2" : "had",        
+        "prop3" : "have",        
+        "prop4" : "were having"    
+    },    
+    {        
+        "sentence" : "She ___ a book last night.",        
+        "answer" : "read",        
+        "prop1" : "is reading",        
+        "prop2" : "read",        
+        "prop3" : "reads",        
+        "prop4" : "was reading"    
+    },    
+    {        
+        "sentence" : "I ___ to New York last year.",        
+        "answer" : "traveled",        
+        "prop1" : "am traveling",        
+        "prop2" : "traveled",
+        "prop3" : "travel",        
+        "prop4" : "was traveling"    
+    },    
+    {        
+        "sentence" : "They ___ each other in college.",        
+        "answer" : "met",        
+        "prop1" : "are meeting",        
+        "prop2" : "met",       
+        "prop3" : "meet",        
+        "prop4" : "were meeting"    
+    },    
+    {        
+        "sentence" : "He ___ his car last week.",        
+        "answer" : "washed",        
+        "prop1" : "is washing",        
+        "prop2" : "washed",        
+        "prop3" : "wash",        
+        "prop4" : "was washing"    
+    }
+]

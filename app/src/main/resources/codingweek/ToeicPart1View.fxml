@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="grammarQ" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar VBox.vgrow="NEVER">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#exit" text="Close">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="Informations" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <HBox fx:id="toolBar" minHeight="-Infinity" prefHeight="70.0" prefWidth="640.0">
+         <children>
+            <Button fx:id="vocabularyButton" onAction="#vocabularyPage" text="VOCABULARY" textAlignment="CENTER" />
+            <Button fx:id="grammarButton" onAction="#grammarPage" text="GRAMMAR" textAlignment="CENTER" />
+            <Button fx:id="toeicButton" onAction="#toeicPage" text="TOEIC" textAlignment="CENTER" />
+         </children>
+      </HBox>
+      <BorderPane fx:id="grammarQ" prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <VBox fx:id="grammarQ" alignment="CENTER" prefHeight="100.0" prefWidth="960.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="title" alignment="CENTER" prefHeight="64.0" text="Title" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+            </VBox>
+         </top>
+         <center>
+            <HBox fx:id="grammarQ" alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="157.0" prefWidth="960.0" spacing="150.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="57.0" prefWidth="295.0" spacing="50.0">
+                     <children>
+                        <Label fx:id="questionNumber" text="Question : ">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                        <Button fx:id="playBtn" mnemonicParsing="false" onAction="#playButton" />
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="imageQuestion" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </padding>
+            </HBox>
+         </center>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="273.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="grammarQ" alignment="CENTER" prefHeight="131.0" prefWidth="782.0">
+                     <children>
+                        <HBox fx:id="grammarQ" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+                           <children>
+                              <Button fx:id="prop1" mnemonicParsing="false" onAction="#prop1Button" prefHeight="64.0" prefWidth="202.0" text="(A)" />
+                              <Button fx:id="prop2" mnemonicParsing="false" onAction="#prop2Button" prefHeight="64.0" prefWidth="202.0" text="(B)" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox fx:id="grammarQ" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+                           <children>
+                              <Button fx:id="prop3" mnemonicParsing="false" onAction="#prop3Button" prefHeight="64.0" prefWidth="202.0" text="(C)" />
+                              <Button fx:id="prop4" mnemonicParsing="false" onAction="#prop4Button" prefHeight="64.0" prefWidth="202.0" text="(D)" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="grammarQ" alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="100.0" spacing="100.0">
+                     <children>
+                        <Button fx:id="nextQuestion" mnemonicParsing="false" onAction="#nextQuestionButton" prefHeight="60.0" prefWidth="200.0" text="Next" />
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="50.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</VBox>

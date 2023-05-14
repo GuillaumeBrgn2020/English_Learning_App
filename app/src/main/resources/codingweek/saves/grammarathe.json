@@ -1,0 +1,66 @@
+[
+    {
+        "sentence" : "I saw ___ dog on the street.",
+        "answer" : "a",
+        "prop1" : "that",
+        "prop2" : "a",
+        "prop3" : "the",
+        "prop4" : "this"
+    },
+    {
+        "sentence" : "___ apple a day keeps the doctor away.",
+        "answer" : "an",
+        "prop1" : "the",
+        "prop2" : "that",
+        "prop3" : "an",
+        "prop4" : "this"
+    },
+    {
+        "sentence" : "___ sun is shining today.",
+        "answer" : "the",
+        "prop1" : "this",
+        "prop2" : "an",
+        "prop3" : "the",
+        "prop4" : "a"
+    },
+    {
+        "sentence" : "I ate ___ sandwich for lunch.",
+        "answer" : "a",
+        "prop1" : "a",
+        "prop2" : "the",
+        "prop3" : "an",
+        "prop4" : "that"
+    },
+    {
+        "sentence" : "___ Eiffel Tower is in Paris.",
+        "answer" : "the",
+        "prop1" : "a",
+        "prop2" : "that",
+        "prop3" : "this",
+        "prop4" : "the"
+    },
+    {
+        "sentence" : "I want to buy ___ car.",
+        "answer" : "a",
+        "prop1" : "an",
+        "prop2" : "the",
+        "prop3" : "a",
+        "prop4" : "that"
+    },
+    {
+        "sentence" : "___ students in my class are from China.",
+        "answer" : "the",
+        "prop1" : "a",
+        "prop2" : "that",
+        "prop3" : "this",
+        "prop4" : "the"
+    },
+    {
+        "sentence" : "I need to buy ___ new shirt.",
+        "answer" : "a",
+        "prop1" : "that",
+        "prop2" : "a",
+        "prop3" : "the",
+        "prop4" : "this"
+    }
+]

@@ -1,0 +1,26 @@
+• Objectif : 
+Finir de tester le pattern Observer et le pattern Strategy. 
+Continuer à faire des piles de tests. 
+Redesigner les pages. 
+Mettre des icônes à la place du texte dans les boutons. 
+Test de l'application et debugging. 
+Terminer la partie gestion de projet, diagramme de classes et suivi de projet. 
+Pour 16h30/17h terminer le debug et avoir le .jar final (17h30 max)
+
+• Répartition des tâches :
+Guillaume : Pile de tests à ajouter & débugging de l'application & mise en place des icônes & gestion de projet (suivi de projet).
+Thibault : Design des pages à améliorer & mise en place des icônes & tests sur le pattern Strategy.
+Caroline : Tests sur le pattern Observer & débugging de l'application & gestion de projet (diag. de classe).
+Paul : Tests sur le pattern Strategy & débugging de l'application
+
+• Résultat :
+L'application est totalement fonctionnelle, aucun bug n'est détecté. Le 
+diagramme de classe est à jour. Les design pattern Observer et Strategy
+ont été terminé. Un mode dans lequel on peut écrire les réponses a été 
+commencé mais n'est pas terminé. 
+
+
+
+
+
+
